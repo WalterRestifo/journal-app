@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+  min-width: 100vw;
+}
+
+.h2 {
+  font-size: medium;
+  padding: 5%;
+}
+
+.form__button {
+  background-color: var(--color-nemo);
+  color: var(--color-foam);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-top: 7%;
+  border-radius: 5%;
+  font-size: medium;
+  font-weight: 900;
+  border: none;
+}

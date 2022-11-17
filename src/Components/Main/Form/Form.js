@@ -1,18 +1,17 @@
 import TextArea from "./TextArea";
 import DateComponent from "../DateComponent";
+import "./Form.css";
 
 export default function Form() {
   return (
-    <form>
-      <h2>
-        <p>
-          NEW ENTRY - TODAY,
-          <DateComponent />
-        </p>
+    <form className="form">
+      <h2 className="h2">
+        NEW ENTRY - TODAY,
+        <DateComponent />
       </h2>
-      <TextArea />
-      <TextArea />
-      <button>Create</button>
+      <TextArea name="motto" labelText="Motto" />
+      <TextArea name="notes" labelText="Notes" />
+      <button className="form__button">Create</button>
     </form>
   );
 }

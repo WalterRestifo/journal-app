@@ -1,10 +1,10 @@
-import IconButton from "../IconButton";
+import "./TocTab.css";
 
-export default function TocTab({ content }) {
+export default function TocTab({ content, className }) {
   return (
     <>
-      {content}
-      <IconButton></IconButton>
+      <span className={className}>{content}</span>
+      <button className="tab__button"></button>
     </>
   );
 }

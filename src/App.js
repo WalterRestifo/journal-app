@@ -6,9 +6,9 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
-      <Header />
+      <Header title="JOURNAL" />
       <Main />
-      <Footer />
+      <Footer text={"Journal App - 2028"}></Footer>
     </>
   );
 }

@@ -1,6 +1,8 @@
+import "./Footer.css";
+
 export default function Footer({ text }) {
   return (
-    <footer>
+    <footer className="footer">
       <p>{text}</p>
     </footer>
   );
