@@ -1,7 +1,7 @@
-export default function DateComponent() {
+export default function DateComponent({ className }) {
   let newDate = new Date();
   let date = newDate.getDate();
   let month = newDate.getMonth() + 1;
   let year = newDate.getFullYear();
-  return <>FEB 28, 2028</>;
+  return <span className={className}>FEB 28, 2028</span>;
 }

@@ -1,8 +1,5 @@
-.tab--marked {
+.--marked {
   color: var(--color-nemo);
-  font-weight: 700;
-  padding-left: 5%;
-  padding-right: 2%;
 }
 
 .tab {

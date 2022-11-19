@@ -1,11 +1,11 @@
-import TocTab from "./TocTab";
+import Tab from "./Tab";
 import "./Toc.css";
 
 export default function Toc() {
   return (
     <section>
-      <TocTab content={"All Entries"} className="tab--marked" />
-      <TocTab content={"Favorites"} className="tab" />
+      <Tab content={"All Entries"} className=" tab --marked" />
+      <Tab content={"Favorites"} className="tab" />
     </section>
   );
 }
