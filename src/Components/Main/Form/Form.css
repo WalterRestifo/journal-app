@@ -14,10 +14,7 @@
 .form__button {
   background-color: var(--color-nemo);
   color: var(--color-foam);
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding: 4%, 10%, 4%, 10%;
   margin-top: 7%;
   border-radius: 5%;
   font-size: medium;
