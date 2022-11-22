@@ -1,11 +1,22 @@
-import Button from "./Button.js";
 import "./Tab.css";
+import { useState } from "react";
 
-export default function Tab({ content, className }) {
+export default function Tab({ content }) {
+  const [isMarked, setIsMarked] = useState(false);
+  function handleClick() {
+    setIsMarked(!isMarked);
+  }
   return (
     <>
-      <span className={className}>{content}</span>
-      <Button className={"button"}>3</Button>
+      <button onClick={handleClick} className={`tab ${isMarked && "--marked"}`}>
+        {content}
+      </button>
+      <button
+        onClick={handleClick}
+        className={`button ${isMarked && "button--marked"}`}
+      >
+        3
+      </button>
     </>
   );
 }

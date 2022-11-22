@@ -3,7 +3,7 @@
   text-align: center;
   margin-top: 2.5rem;
 }
-.section {
+.entry__section {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 0;
@@ -20,9 +20,11 @@
   position: absolute;
   right: 0;
   top: 0;
+  background-color: white;
+  border: none;
 }
 
-.article {
+.entry__article {
   position: relative;
 }
 

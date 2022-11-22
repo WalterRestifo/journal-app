@@ -1,14 +1,22 @@
 import DateComponent from "../DateComponent";
-import IconButton from "../IconButton";
+import StarUnfilled from "../StarUnfilled";
+import StarFilled from "../StarFilled";
 import "./Entry.css";
+import { useState } from "react";
 
 export default function Entry({ title, children }) {
+  const [isMarked, setIsMarked] = useState(false);
+  function handleClick() {
+    setIsMarked(!isMarked);
+  }
   return (
-    <section className="section">
+    <section className="entry__section">
       <DateComponent className="entry__date" />
-      <article className="article">
+      <article className="entry__article">
         <h2 className="entry__title">{title}</h2>
-        <IconButton className="star" />
+        <button onClick={handleClick} className="star">
+          {isMarked ? <StarFilled /> : <StarUnfilled />}
+        </button>
         <p>{children}</p>
         <hr className="horizontal-line"></hr>
       </article>
