@@ -1,0 +1,9 @@
+.header {
+  text-align: center;
+  background-color: var(--color-water-10);
+  padding: 5%;
+}
+
+.header__h1 {
+  font-size: x-large;
+}

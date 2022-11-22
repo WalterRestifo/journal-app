@@ -1,0 +1,32 @@
+.entry__date {
+  display: block;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.section {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.entry__title {
+  font-size: 125%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.star {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.article {
+  position: relative;
+}
+
+.horizontal-line {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}

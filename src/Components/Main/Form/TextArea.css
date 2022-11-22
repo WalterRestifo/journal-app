@@ -1,0 +1,22 @@
+.form__label {
+  align-self: flex-start;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  font-size: small;
+}
+
+textarea {
+  border-color: var(--color-water-10);
+  border-radius: 5px;
+}
+
+.motto {
+  width: 90vw;
+  height: 4rem;
+}
+
+.notes {
+  width: 90vw;
+  height: 8rem;
+}
